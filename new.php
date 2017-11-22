@@ -1,4 +1,5 @@
 <?php
-$output = shell_exec('git --version');
-echo "<pre>$output</pre>";
+shell_exec('git pull');
+//$output = shell_exec('git pull');
+//echo "<pre>$output</pre>";
 ?>
