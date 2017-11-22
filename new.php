@@ -1,3 +1,4 @@
 <?php
-echo 'FOUND this code here';
+$output = shell_exec('ls -lart');
+echo "<pre>$output</pre>";
 ?>
