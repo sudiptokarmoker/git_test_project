@@ -1,4 +1,4 @@
 <?php
-$output = shell_exec('ls -lart');
+$output = shell_exec('git --version');
 echo "<pre>$output</pre>";
 ?>
